@@ -1,0 +1,20 @@
+[08-Mar-2025 06:26:21 Europe/Berlin] PHP Warning:  include(views/template): Failed to open stream: No such file or directory in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:26:21 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/template' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:34:27 Europe/Berlin] PHP Warning:  require_once(views/template): Failed to open stream: No such file or directory in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:34:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/template' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php:8
+Stack trace:
+#0 C:\xampp\htdocs\LoginAnalysisSystems\web\index.php(12): TemplateController->index()
+#1 {main}
+  thrown in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:35:38 Europe/Berlin] PHP Warning:  require_once(../web/views/template): Failed to open stream: No such file or directory in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:35:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../web/views/template' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php:8
+Stack trace:
+#0 C:\xampp\htdocs\LoginAnalysisSystems\web\index.php(12): TemplateController->index()
+#1 {main}
+  thrown in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:35:41 Europe/Berlin] PHP Warning:  require_once(../web/views/template): Failed to open stream: No such file or directory in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
+[08-Mar-2025 06:35:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../web/views/template' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php:8
+Stack trace:
+#0 C:\xampp\htdocs\LoginAnalysisSystems\web\index.php(12): TemplateController->index()
+#1 {main}
+  thrown in C:\xampp\htdocs\LoginAnalysisSystems\web\controllers\controller.template.php on line 8
